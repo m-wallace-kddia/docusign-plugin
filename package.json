@@ -1,0 +1,23 @@
+{
+  "name": "docusign-rest-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kintone/rest-api-client": "^3.1.2",
+    "docusign-esign": "^5.17.0",
+    "fetch": "^1.1.0",
+    "moment": "^2.29.3",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
